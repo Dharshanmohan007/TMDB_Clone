@@ -1,0 +1,36 @@
+if (category === 'movies') {
+        if (subcategory === 'popular') {
+            url = 'https://api.themoviedb.org/3/discover/movie?api_key=f470f67e0a8d6712635048ad1c07ac53';
+        } 
+        else if(subcategory === 'now_playing'){
+            url = 'https://api.themoviedb.org/3/movie/now_playing?api_key=f470f67e0a8d6712635048ad1c07ac53';
+        }
+        else if (subcategory === 'upcoming') {
+            url = 'https://api.themoviedb.org/3/movie/upcoming?api_key=f470f67e0a8d6712635048ad1c07ac53';
+        } 
+        else if (subcategory === 'top_rated') {
+            url = 'https://api.themoviedb.org/3/movie/top_rated?api_key=f470f67e0a8d6712635048ad1c07ac53';
+        }
+    }  
+        else if (category === 'tv') {
+            if (subcategory === 'popular') {
+                url = 'https://api.themoviedb.org/3/discover/tv?api_key=f470f67e0a8d6712635048ad1c07ac53';
+            } 
+            else if (subcategory === 'top_rated') {
+                url = 'https://api.themoviedb.org/3/tv/top_rated?api_key=f470f67e0a8d6712635048ad1c07ac53';
+            }
+            else if(subcategory === 'Airing_today'){
+                url = 'https://api.themoviedb.org/3/tv/airing_today?api_key=f470f67e0a8d6712635048ad1c07ac53'
+            }
+            else if(subcategory === 'on_the_air'){
+                url = 'https://api.themoviedb.org/3/tv/on_the_air?api_key=f470f67e0a8d6712635048ad1c07ac53'
+            }
+    } 
+        else if (category === 'people') {
+            url = 'https://api.themoviedb.org/3/person/popular?api_key=f470f67e0a8d6712635048ad1c07ac53';
+    }
+
+Dashboards:
+all_day :     `https://api.themoviedb.org/3/trending/all/day?api_key=f470f67e0a8d6712635048ad1c07ac53`
+
+week :    `https://api.themoviedb.org/3/trending/movie/week?api_key=f470f67e0a8d6712635048ad1c07ac53`

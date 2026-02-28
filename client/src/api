@@ -34,3 +34,19 @@ Dashboards:
 all_day :     `https://api.themoviedb.org/3/trending/all/day?api_key=f470f67e0a8d6712635048ad1c07ac53`
 
 week :    `https://api.themoviedb.org/3/trending/movie/week?api_key=f470f67e0a8d6712635048ad1c07ac53`
+
+
+Trending_Day:
+`GET https://api.themoviedb.org/3/trending/movie/day?api_key=f470f67e0a8d6712635048ad1c07ac53`
+`GET https://api.themoviedb.org/3/trending/tv/day?api_key=f470f67e0a8d6712635048ad1c07ac53`
+`GET https://api.themoviedb.org/3/trending/person/day?api_key=f470f67e0a8d6712635048ad1c07ac53`
+
+
+Trending_Week:
+`GET https://api.themoviedb.org/3/trending/movie/week?api_key=f470f67e0a8d6712635048ad1c07ac53`
+`GET https://api.themoviedb.org/3/trending/tv/week?api_key=f470f67e0a8d6712635048ad1c07ac53`
+`GET https://api.themoviedb.org/3/trending/person/week?api_key=f470f67e0a8d6712635048ad1c07ac53`
+
+
+Trailer:
+movie:`GET https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=f470f67e0a8d6712635048ad1c07ac53&language=en-US`
